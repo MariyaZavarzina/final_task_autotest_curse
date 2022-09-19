@@ -13,6 +13,10 @@ class GlobalFormMessages(Enum):
     LINK_FORM_MISSING = "Login form is not presented"
     REGISTER_FORM_MISSING = "Register form is not presented"
 
+class GlobalUserLoginMessages(Enum):
+    REGISTER_FORM_LOGIN_MISSING = "Login link in register form is not presented"
+    REGISTER_FORM_PASSWORD_MISSING = "Password link in register form is not presented"
+
 
 class GlobalProductPageMessage(Enum):
     PRODUCT_MISSING = "Product is not presented"
